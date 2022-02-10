@@ -7,6 +7,13 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <ul>
+            <li><a href="{{route('home')}}">Home</a></li>
+            <li><a href="{{route('contatti')}}">Contatti</a></li>
+            <li><a href="{{route('bio')}}">Bio</a></li>
+        </ul>
+    </header>
     <h2>Hello World</h2>
     <h3>Ciao, mi chiamo {{ $name }} {{ $lastname }}</h3>
     <h4>Caratteristiche:</h4>
