@@ -7,6 +7,13 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <ul>
+            <li><a href="{{route('home')}}">Home</a></li>
+            <li><a href="{{route('contatti')}}">Contatti</a></li>
+            <li><a href="{{route('bio')}}">Bio</a></li>
+        </ul>
+    </header>
     <h3>Biografia:</h3>
     @if(isset($bio))
     <p> {{ $bio }} </p>
